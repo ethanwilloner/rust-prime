@@ -1,0 +1,12 @@
+[package]
+
+name = "rust-prime"
+version = "0.0.1"
+authors = ["Ethan Willoner"]
+
+[lib]
+name = "prime"
+path = "src/lib.rs"
+
+[dependencies]
+num = "*"
